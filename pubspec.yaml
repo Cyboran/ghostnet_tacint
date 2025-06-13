@@ -43,7 +43,7 @@ flutter:
     - assets/images/battle_graphics/
     - assets/images/enemy_ships/
     - assets/images/player_ships/
-    - assets/sounds/
+    # - assets/sounds/
     - assets/fonts/
   fonts:
     - family: SuperTechnology
