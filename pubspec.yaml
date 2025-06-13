@@ -1,0 +1,70 @@
+name: ghostnet
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  animations: ^2.0.11
+  camera: ^0.11.1
+  flutter:
+    sdk: flutter
+  uuid: ^3.0.6
+  flutter_secure_storage: ^9.2.4
+  local_auth: ^2.3.0
+  provider: ^6.1.4
+  shared_preferences: ^2.5.3
+  image_picker: ^1.0.4
+  path_provider: ^2.1.2
+  path: ^1.8.3
+  crypto: ^3.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/icon.png"
+  image_path_android: "assets/images/icon.png"
+  adaptive_icon_background: "#000000"
+  adaptive_icon_foreground: "assets/images/icon.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/profile_images/
+    - assets/images/battle_graphics/
+    - assets/images/enemy_ships/
+    - assets/images/player_ships/
+    - assets/sounds/
+    - assets/fonts/
+  fonts:
+    - family: SuperTechnology
+      fonts:
+        - asset: assets/fonts/SuperTechnology.ttf
+          weight: 700
+
+    - family: PressStart2P
+      fonts:
+        - asset: assets/fonts/PressStart2P-Regular.ttf
+
+    - family: VT323
+      fonts:
+        - asset: assets/fonts/VT323-Regular.ttf
+
+    - family: ShareTechMono
+      fonts:
+        - asset: assets/fonts/ShareTechMono-Regular.ttf
+
+    - family: Silkscreen
+      fonts:
+        - asset: assets/fonts/Silkscreen-Regular.ttf
+        - asset: assets/fonts/Silkscreen-Bold.ttf
+          weight: 700
